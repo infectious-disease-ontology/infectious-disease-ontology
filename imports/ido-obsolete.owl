@@ -1,0 +1,1967 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ido.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ido.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/ido-obsolete.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#defaultLanguage -->
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000000">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_process</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_quality</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_object</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;the degree of pathogenicitynnpathogenicity and virulence are used in some communities as synonyms.&apos;-ID[O]:0000004: the degree of pathogenicitynnpathogenicity and virulence are used in some communities as synonyms.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;virulence&apos;-ID[O]:0000004 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_virulence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000005">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_swollen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000006">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_toxicity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000007">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_active</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000008">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_contagious</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000009">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;infection has occurred, but it might not have manifested itselfnquality of being in a non replicative statentime to manifest itself na pathogen when it is in a non replicative state&apos;-ID[O]:0000009: infection has occurred, but it might not have manifested itselfnquality of being in a non replicative statentime to manifest itself na pathogen when it is in a non replicative state</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;latency&apos;-ID[O]:0000009 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_latency</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000010">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_immunosuppressed</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000011">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_exogenous</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000012">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_immunity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000013">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_protective</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_temperature</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_inactivated</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000017">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_mortality</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000018">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pandemic</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000019">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;total number of cases of a particular disease at a given time in a particular population divided by the number of individuals in that particular populationnnthe burden of a disease in a population&apos;-ID[O]:0000019: total number of cases of a particular disease at a given time in a particular population divided by the number of individuals in that particular populationnnthe burden of a disease in a population</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;prevalence&apos;-ID[O]:0000019 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_prevalence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000020">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_epidemic</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000021">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_infected</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_live</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000023">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_zoonotic</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000024">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_immunocompromised</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;the ability of the biotic entity to cause disease in a host of a given typenndo we need to say damage instead of disease?nnpathogenicity and virulence are used as synonyms in some communities&apos;-ID[O]:0000025: the ability of the biotic entity to cause disease in a host of a given typenndo we need to say damage instead of disease?nnpathogenicity and virulence are used as synonyms in some communities</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;pathogenicity&apos;-ID[O]:0000025 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_pathogenicity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_tropism</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000027">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_drug resistance</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_antibiotic resistance</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;number of new cases in a given period of time&apos;-ID[O]:0000029: number of new cases in a given period of time</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;incidence&apos;-ID[O]:0000029 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_incidence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_invasive</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000031">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_endogenous</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000032">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_attenuated</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000033">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_morbidity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_endemic</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_fusion protein</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000036">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_colonizer</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_commensal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_parasite</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_symbiant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;role played by a portion of substance to promote virulencennmagnitudendegree of pathogenesis&apos;-ID[O]:0000040: role played by a portion of substance to promote virulencennmagnitudendegree of pathogenesis</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;virulence factor&apos;-ID[O]:0000040 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_virulence factor</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_route of entry</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_invasin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_toxin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_endotoxin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_exotoxin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_sign</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_treatment</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;look at mathias&apos;s ontology of cancer to get all the subterms...its under quality there&apos;-ID[O]:0000048: look at mathias&apos;s ontology of cancer to get all the subterms...its under quality there</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;symptom&apos;-ID[O]:0000048 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_symptom</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000049">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_antimicrobial</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_medicine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_therapeutic</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000053">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_antibiotic</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;role played by portion of physical substance which promotes colonization&apos;-ID[O]:0000054: role played by portion of physical substance which promotes colonization</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;colonization factor&apos;-ID[O]:0000054 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_colonization factor</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;role played by portion of physical substance utilized by an organism in order to establish adherence to a surface in a host&apos;-ID[O]:0000055: role played by portion of physical substance utilized by an organism in order to establish adherence to a surface in a host</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;adhesion factor&apos;-ID[O]:0000055 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_adhesion factor</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000056">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_host</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000057">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_carrier</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000058">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_chronic carrier</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;holding place for a potential pathogen...animate or inanimate&apos;-ID[O]:0000059: holding place for a potential pathogen...animate or inanimate</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;reservoir&apos;-ID[O]:0000059 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_reservoir</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000060">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;inanimate holder, is water a fomite or only a reservoir?&apos;-ID[O]:0000060: inanimate holder, is water a fomite or only a reservoir?</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;fomite&apos;-ID[O]:0000060 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_fomite</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000061">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_mobile genetic element</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000062">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pathogenicity island</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000063">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;holder and a carrier (actively transmits) and living: potentially make a cross product.  every vector comes into contact with the target. (from one host to another?)&apos;-ID[O]:0000063: holder and a carrier (actively transmits) and living: potentially make a cross product.  every vector comes into contact with the target. (from one host to another?)</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;vector&apos;-ID[O]:0000063 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_vector</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000064">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000065">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_dependovirus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000066">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_infectious agent</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000067">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_opportunistic pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000068">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_emerging pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000069">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_primary pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000070">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_prion</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_initiation of infection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000072">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_disruption of body surface</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000073">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_disruption of normal microbioflora</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;create cross products for &quot;host&quot; and &quot;pathogen&quot; that will be part of this process.&apos;-ID[O]:0000074: create cross products for &quot;host&quot; and &quot;pathogen&quot; that will be part of this process.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;pathogen adherence to host cell&apos;-ID[O]:0000074 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_pathogen adherence to host cell</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000075">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_nonspecific adherence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_specific adherence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000077">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_afimbrial specific adherence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000078">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_fimbrial specific adherence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000079">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_penetration of epithelial barrier</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_penetration via injury of epithelial barrier</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_transcytosis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000082">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_utilization of membranous cell gateway</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000083">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;the process by which an infectious agent passes from one organism to another organism&apos;-ID[O]:0000083: the process by which an infectious agent passes from one organism to another organism</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;transmission&apos;-ID[O]:0000083 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_transmission</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;GO:nthe specific processes that generate the ability of an organism to cause disease in anothernnnThis is defined in GO so import.&apos;-ID[O]:0000084: GO:nthe specific processes that generate the ability of an organism to cause disease in anothernnnThis is defined in GO so import.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;pathogenesis&apos;-ID[O]:0000084 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_pathogenesis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_penetration of host cell</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_engulfment</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000087">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_fusion with host cell membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_membrane invagination</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_passage through cell membrane</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_engulfment by nonphagocyte</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_engulfment by phagocyte</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000092">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_damaging host cells and tissues in subepithelial space</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000093">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_induction of damaging host immune response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000094">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pathogen-induced apoptosis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000095">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pathogen-induced necrosis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000096">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_virus-induced cytopathogenesis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000097">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pathogen spread through host</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000098">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;comment about the instances:nncollections of etiologically connected cases of infectious disease in a given population&apos;-ID[O]:0000098: comment about the instances:nncollections of etiologically connected cases of infectious disease in a given population</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;infectious disease&apos;-ID[O]:0000098 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_infectious disease</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000100">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pathogen evasion of host immune response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000101">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;the process by which an infectious disease establishes itself in a new population (or at a sufficiently higher rate? higher prevalence and/or higher incidence)&apos;-ID[O]:0000101: the process by which an infectious disease establishes itself in a new population (or at a sufficiently higher rate? higher prevalence and/or higher incidence)</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;emergence&apos;-ID[O]:0000101 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_emergence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000102">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_epidemiological spread of disease</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000103">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_outbreak</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000104">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_infection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000105">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_infection treatment process</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000106">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_immunization</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000107">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_prevention of infection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000108">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_transport by blood</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000109">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_transport by lymph</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000110">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_modulation of inflammatory response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000111">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_antigenic variation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000112">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_resist phagocytosis in subepithelial space</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000113">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_serum resistance</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000114">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_phase variation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000115">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_genetic diversification</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000116">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_complement resistance</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000117">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_epidemic spread of disease</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000118">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pandemic spread of disease</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000119">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_vaccination</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000200">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_mode of transmission</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000201">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_end reservoir</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000204">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;Role played by portion of physical substance in a biological process&apos;-ID[O]:0000204: Role played by portion of physical substance in a biological process</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;factor&apos;-ID[O]:0000204 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_factor</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000205">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;the process by which a biotic entity establishes multiple copies of itself in a new environment (including an organismal environment).nnfix idn&quot;native&quot; environment term&apos;-ID[O]:0000205: the process by which a biotic entity establishes multiple copies of itself in a new environment (including an organismal environment).nnfix idn&quot;native&quot; environment term</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;colonization&apos;-ID[O]:0000205 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_colonization</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000206">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_biotic</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000207">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_adhesin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000208">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;prevalence as measured by antibody&apos;-ID[O]:0000208: prevalence as measured by antibody</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;seroprevalence&apos;-ID[O]:0000208 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_seroprevalence</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000209">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;quality [state] of an organism that during its life cycle in which its growth. development, metabolism, etc is temporarily suspended nnnsuspended state, non-replicative state, resting state&apos;-ID[O]:0000209: quality [state] of an organism that during its life cycle in which its growth. development, metabolism, etc is temporarily suspended nnnsuspended state, non-replicative state, resting state</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;dormancy&apos;-ID[O]:0000209 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_dormancy</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000210">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_quality of host</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000211">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_quality of pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000212">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;can change depending on environmentnnwhere should susceptibility factors go?&apos;-ID[O]:0000212: can change depending on environmentnnwhere should susceptibility factors go?</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;susceptibility&apos;-ID[O]:0000212 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_susceptibility</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000213">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_resistance</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000214">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_refractoriness</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000215">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_quality of host population</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000216">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_herd immunity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000217">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_quality of infectious disease</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000218">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_case of infectious disease</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000219">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;agent is incubated?ndisease is incubated?&apos;-ID[O]:0000219: agent is incubated?ndisease is incubated?</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;incubation period&apos;-ID[O]:0000219 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_incubation period</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000220">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_infectivity period</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000221">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;the unfolding or course of infectious diseasennwhat do we say about infectious disease that always remain latent nwhat about when a pathogen continues its progression nnwe need to think about whether we need a term called stagenlife cycle?nprogression?ndevelopment?&apos;-ID[O]:0000221: the unfolding or course of infectious diseasennwhat do we say about infectious disease that always remain latent nwhat about when a pathogen continues its progression nnwe need to think about whether we need a term called stagenlife cycle?nprogression?ndevelopment?</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;infectious disease progression&apos;-ID[O]:0000221 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_infectious disease progression</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000222">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_infectious disease course</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000223">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_host recovery period</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000224">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_intrinsic incubation period</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000225">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_extrinsic incubation period</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000226">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;is this just the part of the life cycle of the biotic entity that has role pathogen for the period of time while it has role pathogen?nncan include phases in the existence of the entity before it becomes a pathogen&apos;-ID[O]:0000226: is this just the part of the life cycle of the biotic entity that has role pathogen for the period of time while it has role pathogen?nncan include phases in the existence of the entity before it becomes a pathogen</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;pathogen life cycle&apos;-ID[O]:0000226 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_pathogen life cycle</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000227">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;is a period a process?&apos;-ID[O]:0000227: is a period a process?</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;dormancy period&apos;-ID[O]:0000227 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_dormancy period</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000228">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pathogen outbreak</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000229">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_oral-fecal transmission</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000230">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_vertical transmission</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000231">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_horizontal transmission</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000232">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_pathogen life cycle stage</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000233">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_infectious disease progression stage</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000300">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_progression rate</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000301">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_rapid progression</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000302">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_long-term non-progression</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000303">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_highly exposed persistently seronegative</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000305">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <rdfs:label xml:lang="en">_obsolete_co-infected</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000306">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">&apos;is a quality relating to both bacteria and host&apos;-ID[O]:0000306: is a quality relating to both bacteria and host</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">id &apos;fitness&apos;-ID[O]:0000306 from IDO 2007. May have replacement - TBD</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">_obsolete_fitness</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000428">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">An exotoxin disposition to damage cells of the host intestinal mucosa.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_enterotoxin disposition</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000429">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A toxin disposition that inheres in a protein or protein complex that is a structural component of a pathogen and is released from the pathogen only upon cytolysis.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_endotoxin disposition</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000462">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A host exhibiting disease symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_symptomatic host</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000478">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A quality that inheres in an infection in virtue of the fact that the infection persists for an extended period of time.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">persistent infection</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">_obsolete_chronic quality of infection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000507">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A bacteremia in which the baceteria are replicating.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_septicemia</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000516">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious organism population with a certain configuration quality (OGMS:0000039) (distributed across a spatial region (e.g., anatomical location in a host) in a particular way). Put e.g. In comments</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_configured infectious organism population</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000527">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent that is an organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_infectious organism</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000546">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A material entity bearing an end reservoir of infectious agent role.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">dead-end reservoir of infectious agent</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">_obsolete_end reservoir of infectious agent</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000574">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">synonym of invasion factor</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_invasin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000575">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_viral latency</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000577">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">An immunity to infectious agent realized in an adaptive immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_adaptive immunity to infectious agent</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000591">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious disposition to be transmitted directly from one human host to another.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_communicable disposition</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000605">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A biological object or group of biological objects in close spatial proximity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_biological object colony</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000613">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">primitive</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_biological object</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000614">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A biological material entity that is capable of replication.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_replicating biological material entity</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000624">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is the set of organism types whose instances have as one of their canonical dispositions, the disposition to bear the host role for a colony of a certain type.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A quality that inheres in an infection and is the likelihood that infectious agents part of the infection will spread to other hosts.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">_obsolete_contagiousness quality</rdfs:label>
+        <rdfs:label xml:lang="en">_obsolete_host range</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
+
+    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
