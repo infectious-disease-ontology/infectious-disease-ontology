@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="http://purl.obolibrary.org/obo/ido/ido-obsolete.owl" uri="imports/ido-obsolete.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/ido/ido-external-by-hand.owl" uri="imports/ido-external-by-hand.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/ido/import_OBO.owl" uri="imports/import_OBO.owl"/>
+</catalog>
