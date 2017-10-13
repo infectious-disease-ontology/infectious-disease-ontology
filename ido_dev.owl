@@ -6673,6 +6673,151 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0001003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000612"/>
+        <obo:IAO_0000115>A pathologic immunosuppression process which arises as the result of an infection and is initiated or dysregulated by an infectious agent in order to overcome host immune responses.</obo:IAO_0000115>
+        <obo:IAO_0000116>The definition should perhaps read &quot;as the result of an infectious disorder&quot;.</obo:IAO_0000116>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">infection-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001003"/>
+        <obo:IAO_0000115>An infection-based immunosuppression process which arises as the result of an HIV infection.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">HIV-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000456"/>
+        <obo:IAO_0000115>An immunosuppressed organism that is experiencing pathologic immunosuppression.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">pathologically immunosuppressed organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001005"/>
+        <obo:IAO_0000115>A pathologically immunosuppressed organism that is experiencing infection-based immunosuppression.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">immunosuppressed organism experiencing infection-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001006"/>
+        <obo:IAO_0000115>A pathologically immunosuppressed organism that is experiencing HIV-based immunosuppression.</obo:IAO_0000115>
+        <obo:IAO_0000116>These individuals may also be immunodeficient due to depletion of CD4+ T cells and other effects of HIV.</obo:IAO_0000116>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">immunosuppressed organism experiencing HIV-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001007"/>
+        <obo:IAO_0000115>An immunosuppressed organism experiencing HIV-based immunosuppressoin that is a human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">immunosuppressed human experiencing HIV-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000612"/>
+        <obo:IAO_0000115>A pathologic immunosuppression process which arises as the result of treatment with a drug that attenuates immune responses.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">drug-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001009"/>
+        <obo:IAO_0000115>A drug-based immunosuppression process that results from chronic systemic steroid use.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chronic systemic steroid use-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001005"/>
+        <obo:IAO_0000115>A pathologically immunosuppressed organism that is experiencing drug-based immunosuppression.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">immunosuppressed organism experiencing drug-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001011"/>
+        <obo:IAO_0000115>a pathologically immunosuppressed organism that is experiencing chronic systemic steroid use-based immunosuppression.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">immunosuppressed organism experiencing chronic systemic steroid use-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001012"/>
+        <obo:IAO_0000115>An immunosuppressed organism experiencing chronic systemic steroid use-based immunosuppression that is a human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">immunosuppressed human experiencing chronic systemic steroid use-based immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0001014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001011"/>
+        <rdfs:label xml:lang="en">immunosuppressed human expreiencing drug-based immunosuppression due to organ transplant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
@@ -6831,5 +6976,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
