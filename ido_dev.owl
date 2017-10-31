@@ -2441,7 +2441,7 @@
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
-        <rdfs:comment>The disposition is realized in a process that has as part a transmission process, an establishment in host process, a process that results in a disorder, and a process in which the bearer of the disposition becomes part of that disorder.  The infectious disposition has a complementary disposition that inheres in an organism and is the capability to be host to an organism with an infectious disposition and to undergo processes intiated by that infectious organism that result in a disorder.</rdfs:comment>
+        <rdfs:comment>The disposition is realized in a process that has as part a transmission process, an establishment in host process, a process that results in a disorder, and a process in which the bearer of the disposition becomes part of that disorder.  The infectious disposition has a complementary disposition that inheres in an organism and is the capability to be host to an organism with an infectious disposition and to undergo processes initiated by that infectious organism that result in a disorder.</rdfs:comment>
         <rdfs:label xml:lang="en">infectious disposition</rdfs:label>
     </owl:Class>
     
@@ -3645,7 +3645,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000515">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000509"/>
-        <obo:IAO_0000115 xml:lang="en">An organism population whose members are particpating in non-parasitic symbiosis with a particular host.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An organism population whose members are participating in non-parasitic symbiosis with a particular host.</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
