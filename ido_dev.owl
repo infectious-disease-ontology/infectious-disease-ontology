@@ -6701,6 +6701,17 @@
     <!-- http://purl.obolibrary.org/obo/IDO_0001005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000456"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000612"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000456"/>
         <obo:IAO_0000115>An immunosuppressed organism that is experiencing pathologic immunosuppression.</obo:IAO_0000115>
         <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
@@ -6713,6 +6724,17 @@
     <!-- http://purl.obolibrary.org/obo/IDO_0001006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0001005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0001003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001005"/>
         <obo:IAO_0000115>A pathologically immunosuppressed organism that is experiencing infection-based immunosuppression.</obo:IAO_0000115>
         <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
@@ -6739,7 +6761,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001007"/>
-        <obo:IAO_0000115>An immunosuppressed organism experiencing HIV-based immunosuppressoin that is a human.</obo:IAO_0000115>
+        <obo:IAO_0000115>An immunosuppressed organism that is a human experiencing HIV-based immunosuppression .</obo:IAO_0000115>
         <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
@@ -6775,6 +6797,17 @@
     <!-- http://purl.obolibrary.org/obo/IDO_0001011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001011">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0001005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0001009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001005"/>
         <obo:IAO_0000115>A pathologically immunosuppressed organism that is experiencing drug-based immunosuppression.</obo:IAO_0000115>
         <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
@@ -6813,7 +6846,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001011"/>
-        <rdfs:label xml:lang="en">immunosuppressed human expreiencing drug-based immunosuppression due to organ transplant</rdfs:label>
+        <rdfs:label xml:lang="en">immunosuppressed human experiencing drug-based immunosuppression due to organ transplant</rdfs:label>
     </owl:Class>
     
 
