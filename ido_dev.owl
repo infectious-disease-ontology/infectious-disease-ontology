@@ -416,12 +416,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0016265 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016265"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0019814 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019814"/>
@@ -1582,7 +1576,7 @@
                                         <owl:unionOf rdf:parseType="Collection">
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
@@ -1647,7 +1641,7 @@
                                         <owl:unionOf rdf:parseType="Collection">
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
@@ -1920,7 +1914,7 @@
                                         <owl:unionOf rdf:parseType="Collection">
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
@@ -1982,7 +1976,7 @@
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0048525"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                             </owl:Restriction>
                                         </owl:unionOf>
                                     </owl:Class>
@@ -2036,7 +2030,7 @@
                                         <owl:unionOf rdf:parseType="Collection">
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
@@ -2097,7 +2091,7 @@
                                         <owl:unionOf rdf:parseType="Collection">
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
@@ -2154,7 +2148,7 @@
                                         <owl:unionOf rdf:parseType="Collection">
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
@@ -4628,7 +4622,7 @@
                                         <owl:allValuesFrom>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                             </owl:Restriction>
                                         </owl:allValuesFrom>
                                     </owl:Restriction>
@@ -4665,7 +4659,7 @@
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000440"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016265"/>
+                                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035944"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -6933,6 +6927,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0035944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0035944"/>
     
 
 

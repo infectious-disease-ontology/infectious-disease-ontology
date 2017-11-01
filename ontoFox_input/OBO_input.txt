@@ -67,27 +67,6 @@ http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 
 
-
-[Source ontology]
-#comment here
-ENVO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/ENVO_00002036
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/ENVO_00002036
-subClassOf http://purl.obolibrary.org/obo/BFO_0000029
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-
-
 [Source ontology]
 #comment here
 GO
@@ -134,8 +113,6 @@ http://purl.obolibrary.org/obo/GO_0006959
 subClassOf http://purl.obolibrary.org/obo/GO_0006955
 http://purl.obolibrary.org/obo/GO_0008150
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015
-http://purl.obolibrary.org/obo/GO_0016265
-subClassOf http://purl.obolibrary.org/obo/GO_0008150
 http://purl.obolibrary.org/obo/GO_0019814
 subClassOf http://purl.obolibrary.org/obo/GO_0032991
 http://purl.obolibrary.org/obo/GO_0019815
@@ -245,9 +222,9 @@ NCBITaxon
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_10239
 http://purl.obolibrary.org/obo/NCBITaxon_2
-http://purl.obolibrary.org/obo/NCBITaxon_2759
-http://purl.obolibrary.org/obo/NCBITaxon_33154
+http://purl.obolibrary.org/obo/NCBITaxon_2759 #eukaryota
 http://purl.obolibrary.org/obo/NCBITaxon_2157
+http://purl.obolibrary.org/obo/NCBITaxon_9606 #Homo sapiens
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -259,7 +236,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_2759
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026
 http://purl.obolibrary.org/obo/NCBITaxon_2157
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026
-http://purl.obolibrary.org/obo/NCBITaxon_33154
+http://purl.obolibrary.org/obo/NCBITaxon_9606 
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759
 
 
@@ -301,10 +278,13 @@ UBERON
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/UBERON_0000178
+http://purl.obolibrary.org/obo/UBERON_0035944
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0000178
 subClassOf http://purl.obolibrary.org/obo/CARO_0000000
+http://purl.obolibrary.org/obo/UBERON_0035944
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 
 
 [Source term retrieval setting]
 includeNoIntermediates
