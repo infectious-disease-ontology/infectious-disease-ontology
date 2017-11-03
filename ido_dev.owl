@@ -6671,7 +6671,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000612"/>
-        <obo:IAO_0000115>A pathologic immunosuppression process which arises as the result of an infection and is initiated or dysregulated by an infectious agent in order to overcome host immune responses.</obo:IAO_0000115>
+        <obo:IAO_0000115>A pathologic immunosuppression process which arises as the result of an infection and is initiated or dysregulated by the infectious agent population.</obo:IAO_0000115>
         <obo:IAO_0000116>The definition should perhaps read &quot;as the result of an infectious disorder&quot;.</obo:IAO_0000116>
         <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
@@ -6755,7 +6755,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001007"/>
-        <obo:IAO_0000115>An immunosuppressed organism that is a human experiencing HIV-based immunosuppression .</obo:IAO_0000115>
+        <obo:IAO_0000115>An immunosuppressed organism that is a human experiencing HIV-based immunosuppression.</obo:IAO_0000115>
         <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
@@ -6827,7 +6827,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001012"/>
-        <obo:IAO_0000115>An immunosuppressed organism experiencing chronic systemic steroid use-based immunosuppression that is a human.</obo:IAO_0000115>
+        <obo:IAO_0000115>An immunosuppressed organism that is a human experiencing chronic systemic steroid use-based immunosuppression.</obo:IAO_0000115>
         <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
@@ -6840,6 +6840,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0001014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0001011"/>
+        <obo:IAO_0000115>A pathologically immunosuppressed organism that is a human experiencing drug-based immunosuppression.</obo:IAO_0000115>
+        <obo:IAO_0000117>Alex Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
         <rdfs:label xml:lang="en">immunosuppressed human experiencing drug-based immunosuppression due to organ transplant</rdfs:label>
     </owl:Class>
     
